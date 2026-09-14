@@ -6,4 +6,115 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 20px;
+    background-color: rgb(37, 51, 82);
+    padding-inline: 300px;
+    color: #F9FAF8;
+}
+
+header, 
+.hero,
+footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.hero {
+    padding-block: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #F9FAF8;
+}
+
+header,
+.hero,
+.information,
+.quote,
+.cta,
+footer {
+    padding-inline: 300px;
+}
+
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero img {
+    height: 100%;
+    width: 50%;
+    aspect-ratio: 1.7;
+    object-fit: cover;
+    object-position: 55% 45%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 30px;
+    border: 0px;
+}
+
+.information {
+    padding-block: 50px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+button,
+.card img {
+    border-radius: 6px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 150px;
+    gap: 40px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.08;
+    object-fit: cover;
 }
